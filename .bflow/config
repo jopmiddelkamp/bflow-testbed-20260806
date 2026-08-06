@@ -1,1 +1,6 @@
+<<<<<<< HEAD
 mode=protected
+=======
+mode=free
+keep-release-branches=true
+>>>>>>> release/1.4.0
