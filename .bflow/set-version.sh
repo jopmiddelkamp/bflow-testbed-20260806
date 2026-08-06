@@ -1,3 +1,3 @@
 #!/usr/bin/env sh
-echo "boom" >&2
-exit 3
+set -eu
+printf 'version: %s+%s\n' "$1" "$(git rev-list --count HEAD)" > VERSION.yaml
