@@ -1,1 +1,2 @@
-mode=protected
+mode=free
+keep-release-branches=true
